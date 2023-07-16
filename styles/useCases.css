@@ -1,0 +1,87 @@
+#useCases {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--light);
+  background-size: cover;
+  width: 100%;
+  /* height: 100%; */
+}
+#useCases h1 {
+  font-size: xx-large;
+  color: var(--dark);
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+}
+.useCases {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--light);
+  background-size: cover;
+  width: 100%;
+  /* height: 100%; */
+}
+.useCases h1 {
+  font-size: xx-large;
+  color: var(--dark);
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+}
+.line-break + span {
+  font-weight: lighter;
+  margin-top: 1.5rem;
+  width: 80%;
+  text-align: center;
+}
+.usecase-list {
+  display: grid;
+  width: 75%;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+.usecase-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: white;
+  font-weight: 400;
+}
+.usecase-elements > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  margin: 0;
+  background-color: white;
+  font-weight: 600;
+  font-size: x-large;
+  align-self: flex-start;
+}
+.usecase-elements img {
+  width: 5rem;
+  height: 5rem;
+  mix-blend-mode: darken;
+  object-fit: contain;
+}

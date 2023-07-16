@@ -1,0 +1,60 @@
+.banner {
+  width: 100%;
+  position: relative;
+  padding: 3rem 1rem;
+}
+.banner-heading {
+  font-size: 60px;
+}
+.carousel-item img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+.caption {
+  width: 100%;
+}
+.caption h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+.caption ul {
+  margin: 0;
+  font-size: 1em;
+  padding-left: 1rem;
+}
+.carousel {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .caption h1 {
+    font-size: 44px;
+    line-height: 63px;
+  }
+  .caption ul {
+    margin: 0;
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 1024px) {
+  .banner {
+    height: calc(100vh - 122px);
+    padding: 4rem 6rem;
+  }
+  .caption {
+    width: 50%;
+  }
+  .caption h1 {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .caption ul {
+    margin: 0;
+    font-size: 1.2em;
+    padding: 2rem;
+  }
+  .carousel {
+    width: 50%;
+  }
+}
