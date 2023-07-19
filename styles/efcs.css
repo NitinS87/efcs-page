@@ -30,6 +30,13 @@ header nav {
 header nav .container {
   background-color: var(--light) !important;
 }
+.line-break + span {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
 button {
   box-sizing: border-box;
   border-radius: 5px !important;

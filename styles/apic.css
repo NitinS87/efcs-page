@@ -19,12 +19,6 @@
   text-align: center;
   width: 90%;
 }
-.line-break + span {
-  font-weight: lighter;
-  margin-top: 1.5rem;
-  width: 80%;
-  text-align: center;
-}
 .apic-list {
   display: grid;
   width: 75%;

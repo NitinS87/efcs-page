@@ -38,12 +38,6 @@
   padding: 1rem;
   text-align: center;
 }
-.line-break + span {
-  font-weight: lighter;
-  margin-top: 1.5rem;
-  width: 80%;
-  text-align: center;
-}
 .usecase-list {
   display: grid;
   width: 75%;
